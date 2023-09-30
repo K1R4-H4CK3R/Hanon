@@ -28,7 +28,7 @@ Execute o script usando o comando:
 ```bash
 python Fsec-anavuln.py
 ```
-##Funcionalidades:
+## Funcionalidades:
 banner():Mostra um banner estilizado no início da execução.
 get_ip(site): Obtém o endereço IP associado ao site alvo.
 scan_ports(site): Varre as portas do site alvo e retorna as portas abertas.
@@ -38,7 +38,7 @@ Exemplo de Uso# Executando a função principal
 if __name__ == "__main__":
     main()
 ```
-##Contribuição:
+## Contribuição:
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-##Observações:
+## Observações:
 Este script faz uso da biblioteca socket para resolver o nome do site para um endereço IP.Utiliza a biblioteca nmap para varredura de portas e detecção de vulnerabilidades.Lembre-se de usar este script de forma ética e em conformidade com todas as leis e regulamentos aplicáveis.
